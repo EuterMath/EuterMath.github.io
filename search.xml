@@ -78,7 +78,9 @@
   <entry>
     <title>latex编辑器（一）</title>
     <url>/2020/11/29/latex%E7%BC%96%E8%BE%91%E5%99%A8%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span>* argv[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt;<span class="string">&quot;hello world&quot;</span>&lt;&lt;<span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
   <entry>
     <title>手写数字识别的神经网络</title>
