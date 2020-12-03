@@ -31,10 +31,17 @@
 <meta property="og:site_name" content="brainsky">
 <meta property="og:description" content="&#x3D;&#x3D;字母表&#x3D;&#x3D;：一个有限的字符集。例子：C语言的字母表 标识符：以字母开头后跟字母数字组成字符串    例 PI、nm1 名字：当给标识符一定意义时，该标识符成为名字   例 PI ：π（圆周率） （变量名，函数名，类名，常量名，对象名等） 类型：以什么方式存放、大小、运算操作 作用域：全局变量，局部变量，静态函数 字母表：由若干元素组成的有限非空集合，用∑表示，它的每个元素称为一个符号。 符号串">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="d:/blog/source_posts/assets/20190105233531289.png">
+<meta property="og:image" content="d:/blog/source_posts/assets/20190105234005693.png">
+<meta property="og:image" content="d:/blog/source_posts/assets/20190105234209186.png">
+<meta property="og:image" content="d:/blog/source_posts/assets/20190105234244562.png">
+<meta property="og:image" content="d:/blog/source_posts/assets/2019010601540838.png">
+<meta property="og:image" content="d:/blog/source_posts/assets/20190106021758245.png">
 <meta property="article:published_time" content="2020-11-28T04:27:01.411Z">
-<meta property="article:modified_time" content="2020-12-03T03:42:38.746Z">
+<meta property="article:modified_time" content="2020-12-03T03:51:21.756Z">
 <meta property="article:author" content="wangji">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="d:/blog/source_posts/assets/20190105233531289.png">
 
 
 <link rel="canonical" href="http://example.com/2020/11/28/hello-world/">
@@ -167,7 +174,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -180,6 +187,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E6%B3%95%E7%9A%84%E9%9D%9E%E5%BD%A2%E5%BC%8F%E8%AE%A8%E8%AE%BA"><span class="nav-number">1.</span> <span class="nav-text">文法的非形式讨论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%96%87%E6%B3%95"><span class="nav-number">1.1.</span> <span class="nav-text">1.文法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99"><span class="nav-number">1.2.</span> <span class="nav-text">2.语法规则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E7%94%B1%E8%A7%84%E5%88%99%E6%8E%A8%E5%AF%BC%E5%8F%A5%E5%AD%90"><span class="nav-number">1.3.</span> <span class="nav-text">3.由规则推导句子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E8%AF%AD%E6%B3%95%E6%A0%91"><span class="nav-number">1.4.</span> <span class="nav-text">4.语法树</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E6%B3%95%E5%92%8C%E8%AF%AD%E8%A8%80%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%AE%9A%E4%B9%89"><span class="nav-number">2.</span> <span class="nav-text">文法和语言的形式定义</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%96%87%E6%B3%95%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%AE%9A%E4%B9%89"><span class="nav-number">2.1.</span> <span class="nav-text">1.文法的形式定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%8E%A8%E5%AF%BC%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%AE%9A%E4%B9%89"><span class="nav-number">2.2.</span> <span class="nav-text">2.推导的形式定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E8%AF%AD%E8%A8%80%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%AE%9A%E4%B9%89"><span class="nav-number">2.3.</span> <span class="nav-text">3.语言的形式定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E9%80%92%E5%BD%92%E6%96%87%E6%B3%95"><span class="nav-number">2.4.</span> <span class="nav-text">4.递归文法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E5%8F%A5%E5%9E%8B%E7%9A%84%E7%9F%AD%E8%AF%AD%E3%80%81%E7%AE%80%E5%8D%95%E7%9F%AD%E8%AF%AD%E5%92%8C%E5%8F%A5%E6%9F%84"><span class="nav-number">2.5.</span> <span class="nav-text">5.句型的短语、简单短语和句柄</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95%E6%A0%91%E4%B8%8E%E4%BA%8C%E4%B9%89%E6%80%A7%E6%96%87%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">语法树与二义性文法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E6%B3%95%E7%9B%B8%E5%85%B3%E7%9A%84%E5%85%B6%E5%AE%83%E7%9F%A5%E8%AF%86"><span class="nav-number">4.</span> <span class="nav-text">文法相关的其它知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%A5%E5%AD%90%E7%9A%84%E5%88%86%E6%9E%90"><span class="nav-number">4.1.</span> <span class="nav-text">句子的分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E6%B3%95%E7%9A%84%E5%AE%9E%E7%94%A8%E9%99%90%E5%88%B6"><span class="nav-number">4.2.</span> <span class="nav-text">文法的实用限制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E6%B3%95%E7%9A%84%E5%85%B6%E4%BB%96%E8%A1%A8%E7%A4%BA%E6%B3%95"><span class="nav-number">4.3.</span> <span class="nav-text">文法的其他表示法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%89%A9%E5%85%85%E7%9A%84BNF%E8%A1%A8%E7%A4%BA%EF%BC%9A"><span class="nav-number">4.3.1.</span> <span class="nav-text">1.扩充的BNF表示：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E8%AF%AD%E6%B3%95%E5%9B%BE"><span class="nav-number">4.3.2.</span> <span class="nav-text">2.语法图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E6%96%87%E6%B3%95%E5%92%8C%E8%AF%AD%E8%A8%80%E7%9A%84%E5%88%86%E7%B1%BB"><span class="nav-number">4.3.3.</span> <span class="nav-text">3.文法和语言的分类</span></a></li></ol></li></ol></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -264,7 +272,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2020-12-03 11:42:38" itemprop="dateModified" datetime="2020-12-03T11:42:38+08:00">2020-12-03</time>
+        <time title="修改时间：2020-12-03 11:51:21" itemprop="dateModified" datetime="2020-12-03T11:51:21+08:00">2020-12-03</time>
       </span>
 
   
@@ -317,6 +325,66 @@
 <p> 语法分析树与二义性</p>
 <p> 语法分析树：简称语法树，用来表示推导过程。<br> 不唯一性：一个句型并不是只对应一棵语法树。</p>
 <p> 如果一个文法存在某个句子对应两颗不同的语法树，则称这个文法是二义的。ps：文法二义性≠语言二义性。二义原因：没有定义运算符优先级和结合性。消除方法：定义优先级和结合性。</p>
+<h2 id="文法的非形式讨论"><a href="#文法的非形式讨论" class="headerlink" title="文法的非形式讨论"></a>文法的非形式讨论</h2><h3 id="1-文法"><a href="#1-文法" class="headerlink" title="1.文法"></a>1.文法</h3><p>文法是对语言结构的定义与描述。即从形式上用于描述和规定语言结构的称为“文法”（或称为“语法”）。<br>所谓文法是在 <strong>形式上</strong> 对句子结构的定义与描述，而未涉及语义问题。</p>
+<h3 id="2-语法规则"><a href="#2-语法规则" class="headerlink" title="2.语法规则"></a>2.语法规则</h3><p>我们通过建立一组规则，来描述句子的语法结构。规定用“::=”表示“由……组成”。<br>例如：<br>&lt;句子&gt;::=&lt;主语&gt;&lt;谓语&gt;<br>&lt;主语&gt;::=&lt;代词&gt;|&lt;名词&gt;<br>&lt;代词&gt; ::=你|我|他<br>&lt;名词&gt;::= 王民|大学生|工人|英语<br>&lt;谓语&gt;::=&lt;动词&gt;&lt;直接宾语&gt;<br>&lt;动词&gt;::=是|学习<br>&lt;直接宾语&gt;::=&lt;代词&gt;|&lt;名词&gt;</p>
+<h3 id="3-由规则推导句子"><a href="#3-由规则推导句子" class="headerlink" title="3.由规则推导句子"></a>3.由规则推导句子</h3><p>有了一组规则之后，可以按照一定的方式用它们去推导或产生句子。<br>推导方法：从一个要识别的符号开始推导，即用相应规则的右部来替代规则的左部，每次仅用一条规则去进行推导。<br>&lt;句子&gt; =&gt; &lt;主语&gt;&lt;谓语&gt;<br>&lt;主语&gt;&lt;谓语&gt; =&gt; &lt;代词&gt;&lt;谓语&gt;<br>…… ……<br>这种推导一直进行下去，直到所有带&lt; &gt;的符号都由终结符号替代为止。<br><em>说明</em>：<br>(1) 有若干语法成分同时存在时，我们总是从 <strong>最左的语法成</strong><br>分进行推导，这称之为最左推导。类似地还有最右推导（一般推导、规范推导）。<br>(2) 除了最左和最右推导，还可能存在其它形式的推导。<br>(3) 从一组规则可推出不同的句子</p>
+<h3 id="4-语法树"><a href="#4-语法树" class="headerlink" title="4.语法树"></a>4.语法树</h3><p>我们用语法树来描述一个句子的语法结构。语法树的叶子节点是句子的单词，非叶子节点的是语法成分。</p>
+<h2 id="文法和语言的形式定义"><a href="#文法和语言的形式定义" class="headerlink" title="文法和语言的形式定义"></a>文法和语言的形式定义</h2><h3 id="1-文法的形式定义"><a href="#1-文法的形式定义" class="headerlink" title="1.文法的形式定义"></a>1.文法的形式定义</h3><p>文法G =（Vn，Vt，P，Z）<br>Vn：非终结符号集<br>Vt：终结符号集<br>P：产生式或规则的集合<br>Z：开始符号（<em>识别符号</em>） Z∈Vn<br><em>注</em>：<br>①V＝Vn ∪ Vt 称为文法的字汇表<br>②规则：规则是一个有序对(U, x), 通常写为 U ::= x 或U→x（其中U∈Vn, x∈V* 因此也有|U| = 1且|x| &gt;= 0）<br>③给定一个文法，实际只需给出产生式集合，并指定识别符号。（识别符号一般约定为第一条规则的左部符号）</p>
+<p><em>例：无符号整数的文法</em>：<br>G[&lt;无符号整数&gt;]=（Vn，Vt，P，Z）<br>Vn＝{&lt;无符号整数&gt;,&lt;数字串&gt;, &lt;数字&gt;}<br>Vt = { 0, 1, 2, 3, … 9 }<br>P = {&lt;无符号整数&gt; → &lt;数字串&gt;<br>&lt;数字串&gt; → &lt;数字串&gt; &lt;数字&gt;<br>&lt;数字串&gt; → &lt;数字&gt;<br>&lt;数字&gt; →0<br>&lt;数字&gt; →1<br>…………<br>&lt;数字&gt; →9 }<br>Z = &lt;无符号整数&gt;</p>
+<h3 id="2-推导的形式定义"><a href="#2-推导的形式定义" class="headerlink" title="2.推导的形式定义"></a>2.推导的形式定义</h3><p><strong>一步推导</strong>：<br><img src="D:\blog\source_posts\assets\20190105233531289.png" alt="推导的形式定义1"><br><em>注</em>：当符号串已没有非终结符号时，推导就必须终止。因为终结符不可能出现在规则左部，所以将在规则左部出现的符号称为非终结符号。<br><strong>多步推导</strong>：<br><img src="D:\blog\source_posts\assets\20190105234005693.png" alt="在这里插入图片描述"><br><strong>任意步推导</strong>：<br><img src="D:\blog\source_posts\assets\20190105234209186.png" alt="在这里插入图片描述"><br><strong>规范推导</strong>：<br><img src="D:\blog\source_posts\assets\20190105234244562.png" alt="在这里插入图片描述"><br>直观意义上：规范推导＝最右推导</p>
+<h3 id="3-语言的形式定义"><a href="#3-语言的形式定义" class="headerlink" title="3.语言的形式定义"></a>3.语言的形式定义</h3><p>对于文法G[Z]：<br>（1）句型x：由开始符号Z经任意步推导得到x，且x∈V<em>；<br>（2）句子x：由开始符合Z经1多步推导得到x，且x∈Vt</em><br>（3）语言L：所有根据该文法推到得到的句子组成的集合</p>
+<p>形式语言理论可以证明以下两点：<br>（1）G →L(G)：已知文法，求语言，通过推导；<br>（2）L(G)→G1，G2，……，Gn：已知语言，构造文法，无形式化方法，更多是凭经验。</p>
+<p><strong>等价文法</strong>：G和G’是两个不同的文法，若 L(G) = L(G’) ,<br>则G和G’为等价文法。</p>
+<h3 id="4-递归文法"><a href="#4-递归文法" class="headerlink" title="4.递归文法"></a>4.递归文法</h3><p>①递归规则：<strong>规则右部有与左部相同的符号</strong><br>对于 U::= xUy<br>若x=ε,即U::= Uy，左递归；<br>若y=ε,即U::= xU，右递归。</p>
+<p>②递归文法：文法G，存在U ∈Vn<br>if U=+=&gt;…U…, 则G为递归文法(自嵌入递归)；<br>if U=+=&gt;U…, 则G为左递归文法；<br>if U=+=&gt;…U, 则G为右递归文法。</p>
+<p>③左递归文法的缺点：不能用<strong>自顶向下</strong>的方法来进行语法分析</p>
+<p>④递归文法的优点：可用有穷条规则，定义无穷语言</p>
+<h3 id="5-句型的短语、简单短语和句柄"><a href="#5-句型的短语、简单短语和句柄" class="headerlink" title="5.句型的短语、简单短语和句柄"></a>5.句型的短语、简单短语和句柄</h3><p>给定文法G[Z], w::=xuy∈V+，为该文法的句型,<br>若 Z==&gt; xUy, 且U=+=&gt;u, 则u是句型w相对于U的短语；<br>若 Z==&gt; xUy, 且U==&gt;u, 则u是句型w相对于U的简单短语。<br>其中U ∈Vn，u ∈V+，x, y ∈V*</p>
+<p><em>短语的直观理解</em>：短语是前面句型中的<strong>某个非终结符</strong>所能推出<br>的<strong>符号串</strong>。<br><em>句柄</em>：任一句型的最左简单短语称为该句型的句柄</p>
+<p>给定句型找句柄的步骤：<br>短语-&gt; 简单短语-&gt; 句柄</p>
+<p><strong>注意</strong>：短语、简单短语是相对于句型而言。一个句型<br>可能有多个短语、简单短语，但句柄只能有一个。</p>
+<h2 id="语法树与二义性文法"><a href="#语法树与二义性文法" class="headerlink" title="语法树与二义性文法"></a>语法树与二义性文法</h2><p><strong>1.判断二义性文法</strong>：<br>依据：文法所能产生的句子，可以用不同的推导原则（使用产生式顺序不同）将其推导出来。如果文法是非二义性文法，那么语法树的生成规律不同，但最终生成的语法树形状完全相同；如果文法是二义性文法，那么最终生成的语法树形状有可能不相同。<br>方法1：若对于一个文法的某一句子存在两棵不同的语法树（或两个不同的 <strong>规范推导</strong>）；或者自底向上看，对于同一个规范句型，存在两个不同的句柄。则该文法是二义性文法，否则是无二义性文法。<br>方法2：即不改变二义性文法，而是确定一种<strong>编译算法</strong>，使该算法满足无二义性充分条件。<br><strong>文法二义性的判定？？</strong>：在理论上已经证明：<strong>文法的二义性是不可判定的</strong>，即不可能构造出一个算法，通过有限步骤来判定任一文法是否有二义性。解决方法：提出一些限制条件，称为无二义性的充分条件。当文法满足这些条件时，就可以判定文法是无二义性的。<br><strong>2.子树与短语</strong><br>子树：子树由语法树中的某个结点（子树的根）连同它向下派生的部分所组成。<br>关系：某子树的末端结点按自左向右顺序为句型中的符号串，则该符号串为该句型的相对于该子树根的短语。<br><strong>3.规约</strong>：自下而上地修剪子树的末端结点，直至把整棵树剪掉（留根），每剪一次对应一次规约。<br><strong>规范规约</strong>：对句型中最左简单短语（句柄）进行的规约称为规范规约。<br><em>注</em>：规范规约与规范推导 <strong>互为逆过程</strong>。</p>
+<p><strong>规范句型</strong>：通过规范推导或规范规约所得到的句型称为规范句型。</p>
+<h2 id="文法相关的其它知识"><a href="#文法相关的其它知识" class="headerlink" title="文法相关的其它知识"></a>文法相关的其它知识</h2><h3 id="句子的分析"><a href="#句子的分析" class="headerlink" title="句子的分析"></a>句子的分析</h3><p>句子的分析是词法分析和语法分析所要做的工作<br>任务：给定G[Z]: S ∈ Vt*, 判定是否有S ∈ L(G[E])</p>
+<h3 id="文法的实用限制"><a href="#文法的实用限制" class="headerlink" title="文法的实用限制"></a>文法的实用限制</h3><p><em>有害规则</em>：若文法中有如U::=U的规则，则这就是有害规则，它会引起二义性。（我推我自己）<br><em>多余规则</em>：<br>（1）在推导文法的所有句子中，始终用不到的规则。即该规则的左部非终结符不出现在任何句型中。（用不到）<br>（2）在推导句子的过程中，一旦使用了该规则，将推不出任何终结符号串。即该规则中含有推不出任何终结符号串的非终结符。（死胡同）<br>若某文法中无有害规则或多余规则，则称该文法是 <strong>压缩过的</strong>。</p>
+<h3 id="文法的其他表示法"><a href="#文法的其他表示法" class="headerlink" title="文法的其他表示法"></a>文法的其他表示法</h3><h4 id="1-扩充的BNF表示："><a href="#1-扩充的BNF表示：" class="headerlink" title="1.扩充的BNF表示："></a>1.扩充的BNF表示：</h4><p><em>BNF的元符号</em>： &lt;, &gt;, ::=, |<br><em>扩充的BNF的元符号</em>： &lt;, &gt;, ::=, |, {, }, [, ] (, )<br>1.{ t }：t可重复连接0到任意多次。如果有限制（上标m，下标n），则可重复连接n到m次。<br>2.[ t ]：t可有可无。<br>3.( )：元符号，注意不要与Vt混淆。</p>
+<h4 id="2-语法图"><a href="#2-语法图" class="headerlink" title="2.语法图"></a>2.语法图</h4><p><img src="D:\blog\source_posts\assets\2019010601540838.png" alt="在这里插入图片描述"></p>
+<h4 id="3-文法和语言的分类"><a href="#3-文法和语言的分类" class="headerlink" title="3.文法和语言的分类"></a>3.文法和语言的分类</h4><p><em>形式语言</em>：用文法和自动机所描述的没有语义的语言。<br><em>语言定义</em>： L(G[Z]) = { x | x∈Vt*, Z =+=&gt; x }<br><em>文法定义</em>：乔姆斯基将所有文法都定义为一个四元组：<br>G=（Vn，Vt，P，Z）<br>Vn：非终结符号集<br>Vt：终结符号集<br>P：产生式或规则的集合<br>Z：开始符号（识别符号） Z∈Vn<br><strong>文法和语言分类</strong><br>文法和语言分类：0型、1型、2型、3型<br>这几类文法的差别在于对产生式施加不同的限制。</p>
+<table>
+<thead>
+<tr>
+<th>文法类型</th>
+<th>别称</th>
+<th>对产生式的限制</th>
+<th>可被接受目标</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0型文法</td>
+<td>短语结构文法</td>
+<td>P:u::=v 其中 u∈V＋,v∈V*</td>
+<td>图灵机(Turing)</td>
+</tr>
+<tr>
+<td>1型文法</td>
+<td>上下文敏感（有关）文法</td>
+<td>P: xUy::= xuy 其中 U∈Vn,x、y、u∈V*</td>
+<td>线性界限自动机</td>
+</tr>
+<tr>
+<td>2型文法</td>
+<td>上下文无关文法</td>
+<td>P: U::= u 其中 U∈Vn,u∈V*</td>
+<td>下推自动机</td>
+</tr>
+<tr>
+<td>3型文法</td>
+<td>正则文法</td>
+<td>①P: U::=T 或 U::=wT 其中 U、w∈VnT∈Vt(右线性) ②P:U::=T 或 U::=Tw 其中 U、w∈Vn T∈Vt（左线性）</td>
+<td>有穷自动机</td>
+</tr>
+</tbody></table>
+<p><strong>注</strong>：<br>（1）2型文法与BNF表示相等价。<br>（2）3型语言（L3）又称正则语言、正则集合<br>（3）四种语言的关系：<br><img src="D:\blog\source_posts\assets\20190106021758245.png" alt="在这里插入图片描述"></p>
 
     </div>
 
